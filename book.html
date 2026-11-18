@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book a Class | PeakForm Fitness</title>
+<meta name="description" content="Book a class slot at PeakForm Fitness. Pick a day, class and time from the weekly timetable and hold your spot.">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-in">
+    <a class="brand" href="index.html">
+      <img src="images/logo-mark.png" alt="PeakForm Fitness logo">
+      <span class="brand-text">PeakForm <span>Fitness</span></span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Toggle menu">Menu</button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul><li><a href="index.html">Home</a></li><li><a href="membership.html">Membership</a></li><li><a href="classes.html" class="active">Classes</a></li><li><a href="trainers.html">Trainers</a></li><li><a href="about.html">About</a></li><li><a href="faq.html">FAQ</a></li><li><a href="contact.html">Contact</a></li>
+        <li><a class="nav-cta" href="trial.html">Free Trial</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <h1>Book a Class</h1>
+    <p>Pick your class, day and time, add your details, and your spot is held. Cancel free of charge up to 3 hours before the class.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="form-card">
+        <form id="booking-form" novalidate>
+          <div class="form-grid">
+            <div class="field">
+              <label for="bk-day">Day</label>
+              <select id="bk-day" name="day" required></select>
+            </div>
+            <div class="field">
+              <label for="bk-class">Class</label>
+              <select id="bk-class" name="class" required></select>
+            </div>
+            <div class="field">
+              <label for="bk-time">Time</label>
+              <select id="bk-time" name="time" required></select>
+            </div>
+            <div class="field">
+              <label>Booking type</label>
+              <div class="radio-row">
+                <label><input type="radio" name="kind" value="Member"> Member</label>
+                <label><input type="radio" name="kind" value="Guest" checked> Guest</label>
+              </div>
+            </div>
+            <div class="field">
+              <label for="bk-name">Full name</label>
+              <input id="bk-name" name="name" type="text" placeholder="Your full name" required>
+            </div>
+            <div class="field">
+              <label for="bk-phone">Phone number</label>
+              <input id="bk-phone" name="phone" type="tel" placeholder="03XX XXXXXXX" required>
+            </div>
+            <div class="field full">
+              <label for="bk-email">Email (optional)</label>
+              <input id="bk-email" name="email" type="email" placeholder="you@example.com">
+            </div>
+            <div class="field full">
+              <label for="bk-notes">Anything we should know? (optional)</label>
+              <textarea id="bk-notes" name="notes" rows="3" placeholder="An injury, a goal, or a question for the coach"></textarea>
+            </div>
+          </div>
+          <p style="margin-top:20px"><button class="btn btn-coral" type="submit">Book My Class</button></p>
+        </form>
+        <div class="confirm-box" id="booking-confirm" style="display:none">
+          <h2>Your class is booked</h2>
+          <p>Thank you. Your spot is held. Please arrive 10 minutes early so the coach can set you up.</p>
+          <div id="confirm-details"></div>
+          <p style="margin-top:16px"><a class="btn btn-outline" href="classes.html">Back to the Timetable</a></p>
+        </div>
+      </div>
+      <div class="info-card">
+        <h3>How booking works</h3>
+        <p>Choose a slot from the timetable, or pick your day, class and time in the form. The time list only shows real slots for that day and class.</p>
+        <h3>Good to know</h3>
+        <ul class="check-list">
+          <li>Classes are booked in advance because spaces are limited</li>
+          <li>Cancel free of charge up to 3 hours before the class</li>
+          <li>Bring workout clothes, indoor trainers, a towel and a water bottle</li>
+          <li>Gloves are provided for Boxing Basics</li>
+        </ul>
+        <h3>Not a member yet?</h3>
+        <p>Your first session is free. <a href="trial.html">Book a free trial</a> and try any one class before you join.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="lead-band">
+  <div class="wrap lead-band-in">
+    <p>This demo website was designed and built by Interlinkz. Like the look of it?</p>
+    <span class="spacer"></span>
+    <a class="btn btn-coral" href="https://interlinkz.com/contact">Want a website like this? Talk to Interlinkz</a>
+    <a class="contact-link" href="https://interlinkz.com/contact">Contact Interlinkz</a>
+  </div>
+</div>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="images/logo-mark.png" alt="PeakForm Fitness logo">
+          <span class="brand-text">PeakForm <span>Fitness</span></span>
+        </div>
+        <p>A friendly gym and fitness studio with real coaching, clear prices and classes from early morning to late evening.</p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="membership.html">Membership and Pricing</a></li>
+          <li><a href="classes.html">Classes and Timetable</a></li>
+          <li><a href="book.html">Book a Class</a></li>
+          <li><a href="trainers.html">Trainers</a></li>
+          <li><a href="trial.html">Book a Free Trial</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Visit Us</h3>
+        <ul>
+          <li>PeakForm Fitness</li>
+          <li>3 Demo Avenue, Sample City</li>
+          <li>Phone: 0300 0000000</li>
+          <li>Email: hello@peakform.example.com</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Opening Hours</h3>
+        <ul>
+          <li>Monday to Saturday: 6 am to 11 pm</li>
+          <li>Sunday: 9 am to 9 pm</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>PeakForm Fitness. This is a demo portfolio website. All business details, prices and people shown are sample content for design display only.</p>
+      <p>Built by <a href="https://interlinkz.com">Interlinkz</a></p>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

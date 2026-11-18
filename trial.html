@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book a Free Trial | PeakForm Fitness</title>
+<meta name="description" content="Claim a free trial session at PeakForm Fitness. Full floor access and any one class, with no card details and no pressure to join.">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-in">
+    <a class="brand" href="index.html">
+      <img src="images/logo-mark.png" alt="PeakForm Fitness logo">
+      <span class="brand-text">PeakForm <span>Fitness</span></span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Toggle menu">Menu</button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul><li><a href="index.html">Home</a></li><li><a href="membership.html">Membership</a></li><li><a href="classes.html">Classes</a></li><li><a href="trainers.html">Trainers</a></li><li><a href="about.html">About</a></li><li><a href="faq.html">FAQ</a></li><li><a href="contact.html">Contact</a></li>
+        <li><a class="nav-cta" href="trial.html">Free Trial</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <h1>Book a Free Trial</h1>
+    <p>One free trial session, full access to the floor and any one class, with no card details and no pressure to join.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="form-card">
+        <form id="trial-form" novalidate>
+          <div class="form-grid">
+            <div class="field">
+              <label for="tr-name">Full name</label>
+              <input id="tr-name" name="name" type="text" placeholder="Your full name" required>
+            </div>
+            <div class="field">
+              <label for="tr-phone">Phone number</label>
+              <input id="tr-phone" name="phone" type="tel" placeholder="03XX XXXXXXX" required>
+            </div>
+            <div class="field">
+              <label for="tr-goal">Your main goal</label>
+              <select id="tr-goal" name="goal" required>
+                <option value="">Choose a goal</option>
+                <option>Get fitter and healthier</option>
+                <option>Build strength</option>
+                <option>Lose weight</option>
+                <option>Learn the basics as a beginner</option>
+                <option>Join group classes</option>
+                <option>Just looking around first</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="tr-time">Preferred time</label>
+              <select id="tr-time" name="time" required>
+                <option value="">Choose a time</option>
+                <option>Weekday morning</option>
+                <option>Weekday evening</option>
+                <option>Saturday</option>
+                <option>Sunday</option>
+              </select>
+            </div>
+          </div>
+          <p style="margin-top:20px"><button class="btn btn-coral" type="submit">Claim My Free Trial</button></p>
+        </form>
+        <div class="confirm-box" id="trial-confirm" style="display:none">
+          <h2>Your free trial is booked</h2>
+          <p>Thank you, <strong id="trial-name"></strong>. Your trial preference (<strong id="trial-when"></strong>) is saved.</p>
+          <p>We would normally call you to fix the exact day and time. Bring workout clothes, indoor trainers, a towel and a water bottle.</p>
+          <p style="margin-top:14px"><a class="btn btn-outline" href="classes.html">Browse the Class Timetable</a></p>
+        </div>
+      </div>
+      <div class="info-card">
+        <h3>What your trial includes</h3>
+        <ul class="check-list">
+          <li>Full access to the gym floor</li>
+          <li>Any one class from the timetable</li>
+          <li>A look around with a coach</li>
+          <li>A simple starter programme if you want one</li>
+        </ul>
+        <h3>What it does not include</h3>
+        <p>No card details, no contract and no pressure to join. If PeakForm is not for you, you simply do not come back.</p>
+        <h3>Opening hours</h3>
+        <p>Monday to Saturday: 6 am to 11 pm<br>Sunday: 9 am to 9 pm</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="lead-band">
+  <div class="wrap lead-band-in">
+    <p>This demo website was designed and built by Interlinkz. Like the look of it?</p>
+    <span class="spacer"></span>
+    <a class="btn btn-coral" href="https://interlinkz.com/contact">Want a website like this? Talk to Interlinkz</a>
+    <a class="contact-link" href="https://interlinkz.com/contact">Contact Interlinkz</a>
+  </div>
+</div>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="images/logo-mark.png" alt="PeakForm Fitness logo">
+          <span class="brand-text">PeakForm <span>Fitness</span></span>
+        </div>
+        <p>A friendly gym and fitness studio with real coaching, clear prices and classes from early morning to late evening.</p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="membership.html">Membership and Pricing</a></li>
+          <li><a href="classes.html">Classes and Timetable</a></li>
+          <li><a href="book.html">Book a Class</a></li>
+          <li><a href="trainers.html">Trainers</a></li>
+          <li><a href="trial.html">Book a Free Trial</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Visit Us</h3>
+        <ul>
+          <li>PeakForm Fitness</li>
+          <li>3 Demo Avenue, Sample City</li>
+          <li>Phone: 0300 0000000</li>
+          <li>Email: hello@peakform.example.com</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Opening Hours</h3>
+        <ul>
+          <li>Monday to Saturday: 6 am to 11 pm</li>
+          <li>Sunday: 9 am to 9 pm</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>PeakForm Fitness. This is a demo portfolio website. All business details, prices and people shown are sample content for design display only.</p>
+      <p>Built by <a href="https://interlinkz.com">Interlinkz</a></p>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

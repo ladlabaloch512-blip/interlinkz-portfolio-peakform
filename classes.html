@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Classes and Timetable | PeakForm Fitness</title>
+<meta name="description" content="The full PeakForm Fitness weekly class timetable with filters for strength, HIIT, yoga, spin, boxing and core classes.">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-in">
+    <a class="brand" href="index.html">
+      <img src="images/logo-mark.png" alt="PeakForm Fitness logo">
+      <span class="brand-text">PeakForm <span>Fitness</span></span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Toggle menu">Menu</button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul><li><a href="index.html">Home</a></li><li><a href="membership.html">Membership</a></li><li><a href="classes.html" class="active">Classes</a></li><li><a href="trainers.html">Trainers</a></li><li><a href="about.html">About</a></li><li><a href="faq.html">FAQ</a></li><li><a href="contact.html">Contact</a></li>
+        <li><a class="nav-cta" href="trial.html">Free Trial</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <h1>Classes and Timetable</h1>
+    <p>Six class types across the whole week, from 7 in the morning to late evening. Book in advance so your spot is held and the class never gets overcrowded.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Weekly timetable</h2>
+    <p class="lead">Filter by class type, then tap Book on any slot to reserve your place.</p>
+    <div class="filters"><button class="filter-btn active" data-filter="All">All</button><button class="filter-btn" data-filter="Strength Circuit">Strength Circuit</button><button class="filter-btn" data-filter="HIIT Burn">HIIT Burn</button><button class="filter-btn" data-filter="Yoga Flow">Yoga Flow</button><button class="filter-btn" data-filter="Spin Ride">Spin Ride</button><button class="filter-btn" data-filter="Boxing Basics">Boxing Basics</button><button class="filter-btn" data-filter="Core and Mobility">Core and Mobility</button></div>
+    <p class="muted" id="tt-count"></p>
+    <div class="table-scroll">
+      <table class="timetable">
+        <thead><tr><th>Day</th><th>Time</th><th>Class</th><th>Coach</th><th>Length</th><th></th></tr></thead>
+        <tbody id="tt-body"></tbody>
+      </table>
+    </div>
+    <img src="images/group-class.jpg" alt="A group fitness class in session at PeakForm Fitness" style="border-radius:14px;margin-top:30px;width:100%;max-height:380px;object-fit:cover">
+  </div>
+</section>
+
+<section class="section-grey">
+  <div class="wrap">
+    <h2>About the classes</h2>
+    <p class="lead">Every class has an easier option for beginners and a harder option for regulars. Your coach will show you both before the class starts.</p>
+    <div class="desc-list" id="class-descriptions"></div>
+  </div>
+</section>
+
+<section class="section-navy">
+  <div class="wrap center">
+    <h2>Ready when you are</h2>
+    <p class="lead">Book a class slot in under a minute, or try the gym free first and book after your trial.</p>
+    <p style="margin-top:18px">
+      <a class="btn btn-coral" href="book.html">Book a Class</a>
+      <a class="btn btn-white" href="trial.html" style="margin-left:10px">Book a Free Trial</a>
+    </p>
+  </div>
+</section>
+
+<div class="lead-band">
+  <div class="wrap lead-band-in">
+    <p>This demo website was designed and built by Interlinkz. Like the look of it?</p>
+    <span class="spacer"></span>
+    <a class="btn btn-coral" href="https://interlinkz.com/contact">Want a website like this? Talk to Interlinkz</a>
+    <a class="contact-link" href="https://interlinkz.com/contact">Contact Interlinkz</a>
+  </div>
+</div>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="images/logo-mark.png" alt="PeakForm Fitness logo">
+          <span class="brand-text">PeakForm <span>Fitness</span></span>
+        </div>
+        <p>A friendly gym and fitness studio with real coaching, clear prices and classes from early morning to late evening.</p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="membership.html">Membership and Pricing</a></li>
+          <li><a href="classes.html">Classes and Timetable</a></li>
+          <li><a href="book.html">Book a Class</a></li>
+          <li><a href="trainers.html">Trainers</a></li>
+          <li><a href="trial.html">Book a Free Trial</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Visit Us</h3>
+        <ul>
+          <li>PeakForm Fitness</li>
+          <li>3 Demo Avenue, Sample City</li>
+          <li>Phone: 0300 0000000</li>
+          <li>Email: hello@peakform.example.com</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Opening Hours</h3>
+        <ul>
+          <li>Monday to Saturday: 6 am to 11 pm</li>
+          <li>Sunday: 9 am to 9 pm</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>PeakForm Fitness. This is a demo portfolio website. All business details, prices and people shown are sample content for design display only.</p>
+      <p>Built by <a href="https://interlinkz.com">Interlinkz</a></p>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
